@@ -12,7 +12,9 @@ Python program to track and analyze personal athletics performance, records, and
 
 ### Project Structure
 - main.py - entry point
-- xxx
+- config.json - configures the language
+- config.py - function to set the settings of config.json
+- lang/* - different json language dictionaries
 
 ### License
 This project is licensed under the MIT License.
