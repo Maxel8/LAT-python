@@ -1,4 +1,16 @@
 {
   "greeting": "Leichtahletik-Tracker - Python-Programm zur Verwaltung und Analyse von persönlichen Leichtathletik-Zeiten, Rekorden und Trainingsdaten.",
-  "x": "x"
+  "main_menu": "Auswahlmenü",
+  "main_option_1": "1 - neuste Zeiten / Weiten anzeigen",
+  "main_option_2": "2 - Zeiten / Weiten hinzufügen",  
+  "main_option_3": "3 - Rekorde (PR) anzeigen",
+  "main_option_end": "0 - Programm beenden",
+  "main_input": "Wähle eine der obenstehenden Optionen aus: ",
+  "invalid_main_input": "Ungültige Eingabe. Bitte wähle eine der genannten Zahlen!",
+
+  "add_values_greeting": "Zeiten / Weiten hinzufügen",
+  "choose_discipline_documented": "Bereits dokumentierte Disziplinen:",
+  "add_values_documented": "1 - bereits dokumentierte Disziplinen", 
+  "add_values_new": "2 - neue Disziplin hinzufügen",
+  "add_values_input": "Wähle eine der obenstehenden Optionen aus: "
 }
