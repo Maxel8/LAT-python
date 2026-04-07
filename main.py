@@ -1,6 +1,4 @@
 # main.py
-# 
-
 
 import json
 import os
@@ -22,8 +20,9 @@ print("LAT-python")
 logging.info("Application started")
 
 # Create template files if they do not exist
-
+logging.info("Starting - create_templates")
 create_template()
+logging.info("Finished - create_templates")
 
 # Load configuration file if not yet configured: language is being configured
 
@@ -35,6 +34,7 @@ if not config["configured"]:
     if language not in ["en", "de"]:
         print("Invalid language. Defaulting to English (en).")
         language = "en"
+        logging.warning("Invalid language input. Defaulted to English (en). [E1002]")
     configure(language)
 
 # Load configuration file and update language settings

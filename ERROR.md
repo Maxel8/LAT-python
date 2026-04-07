@@ -1,6 +1,6 @@
 # Error codes
 
-| Error code | Description |
-|:-----------:|-------|
-|E1001| xxx    |
-|E1002| xxx    |
+| Error code | Description | Code location |
+|:-----------:|-------|-------|
+|E1001| xxx    |xxx|
+|E1002| Invalid language input. Defaulted to English (en).    |main.py, language selection|
